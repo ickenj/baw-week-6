@@ -27,15 +27,9 @@ $discount_price_formatted = "$".number_format($discount, 2);
 <!DOCTYPE html>
 <html></html>
 
-<head>
-    <title>Product Invoice Calculator</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/nav.css" />
-</head>
 <body>
     <div id="content">
-        <h1>This page is under construction</h1>
-
+		<h1 id="mainContent">Product Discount Calculator</h1>
         <label>Product Description:</label>
         <span><?php echo $product_description; ?></span><br />
 
